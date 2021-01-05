@@ -1,0 +1,20 @@
+while True:
+  a=input("Give me your first number:")
+  b=input("Give me your second number:")
+  #if b==0:
+  #  print("Number cannot be zero.  Please enter again")
+  #b=float(input("Give me your second number: "))
+
+  #print(type(a))
+  if a>b:
+    print(a, "is the bigger number" )
+  elif b>a:
+    print(b, "is the bigger number")
+  else:
+    print("Both Numbers are the same")
+  #print(a/b)
+  Continue=input("Do you want to continue? (y/n)")
+  if Continue=='n':
+    break
+
+print("Bye Bye")
