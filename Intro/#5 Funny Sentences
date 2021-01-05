@@ -1,0 +1,13 @@
+#Funny Sentences
+name=["Adam", "Eve", "John", "Mary"]
+verb=["buys", "rides","kicks","jumps","loves","eats","run","walks"]
+noun=["lion","bicycle","plane","boat","monkey","elephant","durians"]
+from random import randint
+import random
+
+def pick(words):
+  num_words=len(words)
+  num_picked=randint(0,num_words-1)
+  word_picked=words[num_picked]
+  return word_picked
+print(pick(name),pick(verb),"a", pick(noun),end=".\n")
